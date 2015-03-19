@@ -1,8 +1,11 @@
-* { font-family: 'Inconsolata';}
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+* { font-family: 'Inconsolata'; margin: 0px; padding: 0px; }
+
 .content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    vertical-align: middle;
 }
 
 .item {
@@ -31,15 +34,22 @@
 }
 
 .titan {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+    background: url("../imgs/bg.png");
+    padding: 75px 0px;
 
     align-items: center;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 500px) {
