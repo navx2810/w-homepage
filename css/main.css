@@ -12,6 +12,14 @@
     vertical-align: middle;
 }
 
+header h1 {
+    padding: 1em 0em;
+    text-align: center;
+    border-bottom: 2px solid #222;
+    color: #555;
+    background: #333;
+}
+
 .item {
     order: 1;
     margin: 5px;
@@ -51,6 +59,8 @@
     padding: 75px 75px;
 
     align-items: center;
+
+    border-bottom: 2px solid #aaa;
 }
 
 nav {
